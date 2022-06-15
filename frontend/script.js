@@ -1,4 +1,4 @@
-api = 'http://localhost:1809'
+api = 'http://localhost:1809/'
 
 
 $(document).ready(function(){
