@@ -91,7 +91,7 @@ var activity = {
 
 /* Função que faz uma requisição GET */
 function get() {
-    $.get('http://127.0.0.1:1809/view', function(resultado) {
+    $.get('http://localhost:1809/view', function(resultado) {
         var perfil = JSON.parse(resultado);
         $("#address").html(perfil.endereco);
         $("#phone").html(perfil.telefone);
